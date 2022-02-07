@@ -1,0 +1,27 @@
+import * as React from 'react';
+import { Text, View, Button} from 'react-native';
+
+class SoundButton extends React.Component {
+  render() {
+    return (
+<Button title='SoundButton' color="red"/>
+    );
+  }
+}
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <View style={{ marginTop: 200 }}>
+        <SoundButton />
+      </View>
+    );
+  }
+}
+
+
+
+https://snack.expo.dev/@deniseodeth/7cda70
+
+
+'http://soundbible.com/mp3/Buzzer-SoundBible.com-188422102.mp3' 
